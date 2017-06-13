@@ -6,9 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "danieldmo",
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.0.10"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldmo/ReactCompGen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danieldmo/ReactCompGen/issues"
+  },
+  "homepage": "https://github.com/danieldmo/ReactCompGen#readme"
 }
