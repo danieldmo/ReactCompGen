@@ -21,7 +21,7 @@ var schema = {
 };
 
 function generate(componentTemplate, testTemplate, result) {
-  var dir = __dirname + '/' + result.componentName + '/';
+  var dir = `${result.componentName}/`;
   var data = {
     componentName: result.componentName
   };
