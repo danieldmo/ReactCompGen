@@ -17,9 +17,9 @@
     "url": "git+https://github.com/danieldmo/ReactCompGen.git"
   },
   "bin": {
-    "react-component-generator": "index.js"
+    "react-component-generator": "bin/index.js"
   },
-  "main" : "./bin/index.js",
+  "main" : "./index.js",
   "preferGlobal": "true",
   "bugs": {
     "url": "https://github.com/danieldmo/ReactCompGen/issues"
