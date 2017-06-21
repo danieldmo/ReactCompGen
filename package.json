@@ -19,8 +19,8 @@
   "bin": {
     "react-component-generator": "index.js"
   },
-  "main" : "./index.js",
-  "preferGlobal": "true"
+  "main" : "./bin/index.js",
+  "preferGlobal": "true",
   "bugs": {
     "url": "https://github.com/danieldmo/ReactCompGen/issues"
   },
