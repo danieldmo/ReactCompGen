@@ -2,14 +2,15 @@
   "name": "react-component-generator",
   "version": "1.0.0",
   "description": "generates components",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "danieldmo",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.0.10"
+    "handlebars": "^4.0.10",
+    "prompt": "^1.0.0"
   },
   "devDependencies": {},
   "repository": {
@@ -19,7 +20,6 @@
   "bin": {
     "react-component-generator": "bin/index.js"
   },
-  "main" : "./index.js",
   "preferGlobal": "true",
   "bugs": {
     "url": "https://github.com/danieldmo/ReactCompGen/issues"
