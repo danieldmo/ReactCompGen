@@ -10,7 +10,7 @@ npm i https://github.com/danieldmo/ReactCompGen.git -g
 
 ## Usage
 
-Navigate to the desired directory, run, and follow the instructions.
+Navigate to the desired directory, run the command below, and follow the instructions.
 
 ```
 react-component-generator
