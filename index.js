@@ -2,9 +2,9 @@ const Handlebars = require('handlebars');
 const fs = require('fs');
 const prompt = require('prompt');
 const templates = {
-  component: 'templates/component-template.ejs',
-  statelessComponent: 'templates/stateless-component-template.ejs',
-  statelessComponentTest: 'templates/stateless-component-test-template.ejs',
+  component: __dirname + '/templates/component-template.ejs',
+  statelessComponent: __dirname + '/templates/stateless-component-template.ejs',
+  statelessComponentTest: __dirname + '/templates/stateless-component-test-template.ejs',
 }
 
 var schema = {
