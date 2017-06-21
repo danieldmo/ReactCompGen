@@ -50,6 +50,8 @@ function generate(componentTemplate, testTemplate, result) {
 
   // css file
   fs.writeFileSync(dir + result.componentName + '.scss', '');
+
+  console.log(`{result.componentName}.jsx was created at ${dir}`);
 }
 
 prompt.start();
