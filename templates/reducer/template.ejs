@@ -1,0 +1,21 @@
+import { ACTIONS } from 'actions/{{actionName}}';
+
+export const defaultState = {
+};
+
+export default function {{actionName}}Reducer(state = defaultState, action) {
+  switch (action.type) {
+    // FETCHING {{actionName}}
+    case ACTIONS.FETCH_REQUEST:
+      return { ...state, fetching{{actionName}}: true };
+    case ACTIONS.FETCH_SUCCESS:
+      return {
+        ...state,
+        fetching{{actionName}}: false,
+      };
+    case ACTIONS.FETCH_ERROR:
+      return { ...state, fetching{{actionName}}: false, error: action.error };
+
+    default: return state;
+  }
+}

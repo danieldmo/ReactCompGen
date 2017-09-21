@@ -110,6 +110,10 @@ function askIfComponentStateless() {
         message: 'What would you like to name your component?',
         required: true
       },
+      dir: {
+        message: 'What dir would you like that to be created in? Defaults to (./components)',
+        default: 'components',
+      }
     }
   };
   return new Promise((resolve, reject) => {
@@ -139,4 +143,4 @@ function askIfComponentStateless() {
 }
 askIfActionOrComponent()
   .then(type => (type === 'action' ? askActionName() : askIfComponentStateless()))
-  .then(() => console.log('done'));
+  .catch(err => console.log(err));
