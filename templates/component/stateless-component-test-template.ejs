@@ -1,12 +1,17 @@
 import React from 'react';
 import { expect } from 'chai';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 
 import {{componentName}} from './{{componentName}}.jsx';
 
 describe('<{{componentName}} />', () => {
+  let component;
+
+  beforeEach(() => {
+    component = shallow(<{{componentName}} />);
+  });
+
   it('should mount', () => {
-    const component = shallow(<{{componentName}} />);
     expect(component.find('.{{componentName}}')).to.exist.and.have.length(1);
   });
 });
