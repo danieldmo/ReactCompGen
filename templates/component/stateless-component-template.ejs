@@ -1,17 +1,16 @@
+// @flow
+
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import './{{componentName}}.scss';
 
-function {{componentName}}(props) {
-  return (
-    <div className="{{componentName}}">
-    </div>
-  )
-}
-
-{{componentName}}.propTypes = {
+type Props = {
 };
+
+cosnt {{componentName}} = (props: Props) =>(
+  <div className="{{componentName}}">
+  </div>
+);
 
 {{componentName}}.defaultProps = {
 };
